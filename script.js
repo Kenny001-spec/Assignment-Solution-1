@@ -35,10 +35,6 @@ const secondcarBrk = new car('Mercedes', 95);
 console.log(secondcarBrk);
 console.log(secondcarBrk.calcBreak());
 
-
-
-
-
 const cars = {
     accelerate: 'BMW',
     brake: 'Mercedes',
@@ -49,47 +45,3 @@ const cars = {
     }
 };
 cars.start();
-
-
-
-
-
-
-
-
-
-
-
-// // ES5 {function Constructor}
-// const PersonES5 = function (firstName, LastName, birthYear) {
-//     this.firstName = firstName;
-//     this.LastName = LastName;
-//     this.birthYear = birthYear;
-// }
-
-// PersonES5.prototype.CalcAge = function () {
-//     return 2022 - this.birthYear;
-// }
-
-
-// const Ismail = new PersonES5('jagunmolu', 'Adam', 1970);
-// const Cardi = new PersonES5('cardi', 'B', 1991);
-
-// console.log(Ismail)
-// console.log(Ismail.CalcAge());
-// // console.log(Cardi)
-
-// // ES6 {function Construction}
-// class PersonES6 {
-//     constructor(firstName, LastName, birthYear) {
-//         this.firstName = firstName;
-//         this.LastName = LastName;
-//         this.birthYear = birthYear
-//     }
-
-//     CalcAge() {
-//         return 2022 - this.birthYear;
-//     }
-// }
-// const burna = new PersonES6('Burna', 'Wizkid', 1994);
-// console.log(burna);
